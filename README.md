@@ -9,7 +9,7 @@ This project showcases my work, skills, and the projects I’ve built over time.
 ---
 
 ### ✨ About  
-I’m a Web Developer skilled in **React.js, Node.js, PHP, MySQL, Laravel, CodeIgniter, WordPress, and Shopify**.  
+I’m a Frontend/Web Developer skilled in **React.js, Node.js, PHP, MySQL, Laravel, CodeIgniter, WordPress, and Shopify**.  
 My focus is on building **clean, responsive, and user-friendly applications**, while exploring modern technologies and cloud platforms.  
 
 ---
