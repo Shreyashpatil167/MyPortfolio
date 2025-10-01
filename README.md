@@ -4,7 +4,7 @@ Welcome to my personal portfolio repository! 🚀
 This project showcases my work, skills, and the projects I’ve built over time.  
 
 👉 You can view my live portfolio here:  
-🔗 [Visit My Portfolio]((https://shreyashpatil167.github.io/MyPortfolio/))  
+🔗 [Visit My Portfolio]:- https://shreyashpatil167.github.io/MyPortfolio/  
 
 ---
 
