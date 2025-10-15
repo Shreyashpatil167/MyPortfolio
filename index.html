@@ -62,9 +62,10 @@
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#skills"><i class="bi bi-award navicon"></i> Skills</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
@@ -92,7 +93,7 @@
   <div class="container section-title text-center" data-aos="fade-up">
     <h2>About</h2>
     <p>
-      I’m a Web Developer skilled in React.js, Node.js, PHP, and MySQL, with experience in frameworks like Laravel and CodeIgniter.  
+      I’m a Full Stack Developer skilled in React.js, Node.js, PHP, and MySQL, with experience in frameworks like Laravel and CodeIgniter.  
       I also work with CMS platforms like WordPress and Shopify, and I’m familiar with Git, CI/CD, and cloud platforms such as AWS, Azure, and GCP.  
       My focus is on building clean, responsive applications while continuously expanding my expertise in modern web and cloud technologies.  
     </p>
@@ -101,7 +102,7 @@
   <div class="container" data-aos="fade-up" data-aos-delay="100">
     <div class="row justify-content-center">
       <div class="col-lg-10 content">
-        <h2 class="text-center">Web Developer</h2>
+        <h2 class="text-center">Full Stack Web/App Developer</h2>
         <p class="fst-italic text-center py-3">
           Building clean, responsive, and user-friendly web applications.
         </p>
@@ -113,11 +114,9 @@
               <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Pune, India</span></li>
             </ul>
           </div>
-          <div class="col-md-6">
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>6 Feb 1997</span></li>
-            </ul>
+          <div class="about-focus">
+            <h4>Currently Focused On</h4>
+            <p>Performance optimization, UI polish, and cloud deployments with AWS.</p>
           </div>
         </div>
       </div>
@@ -137,23 +136,29 @@
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> </p>
+              <div class="stat-number">
+                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                <span class="stat-plus">+</span>
+              </div>
+              <p><strong>Happy Clients</strong></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> </p>
+              <div class="stat-number">
+                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                <span class="stat-plus">+</span>
+              </div>
+              <p><strong>Projects</strong></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+              <span class="stat-value">24/7</span>
               <p><strong>Hours Of Support</strong> </p>
             </div>
           </div><!-- End Stats Item -->
@@ -172,129 +177,63 @@
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2>Skills</h2>
+    <p>Focused on modern web development with a strong front-end core and reliable backend foundations.</p>
   </div><!-- End Section Title -->
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row g-3 justify-content-center">
-
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">HTML5</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">CSS3</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">JavaScript</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">React.js</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">Node.js</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">PHP</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">Laravel</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">MySQL</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">WordPress</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">Shopify</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">Git/GitHub</div></div>
-      <div class="col-lg-2 col-md-3 col-4"><div class="skill-box">AWS</div></div>
-
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <div class="skill-group">
+          <h4>Frontend</h4>
+          <div class="skill-pills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>React.js</span>
+            <span>Bootstrap</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="skill-group">
+          <h4>Backend</h4>
+          <div class="skill-pills">
+            <span>Node.js</span>
+            <span>PHP</span>
+            <span>Laravel</span>
+            <span>MySQL</span>
+            <span>REST APIs</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="skill-group">
+          <h4>CMS & Commerce</h4>
+          <div class="skill-pills">
+            <span>WordPress</span>
+            <span>Shopify</span>
+            <span>Theme Customization</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="skill-group">
+          <h4>Tools & Cloud</h4>
+          <div class="skill-pills">
+            <span>Git/GitHub</span>
+            <span>CI/CD</span>
+            <span>AWS</span>
+            <span>Azure</span>
+            <span>GCP</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
 </section><!-- /Skills Section -->
 
-<!-- CSS for Skill Boxes -->
-<style>
-  .skill-box {
-    background: #fff;
-    border: 2px solid #ddd;
-    padding: 15px;
-    text-align: center;
-    font-weight: 600;
-    border-radius: 8px;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    font-size: 14px;
-  }
 
-  .skill-box:hover {
-    background: #007bff;
-    color: #fff;
-    border-color: #007bff;
-    transform: translateY(-5px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
-  }
-</style>
-
-
-
-
-    <!-- Resume Section -->
-<section id="resume" class="resume section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Career Overview</h2>
-    <p>Web Developer skilled in React.js, Node.js, PHP, MySQL, and modern frameworks. Experienced in building responsive, scalable applications, integrating REST APIs, and working with cloud platforms like AWS. Passionate about delivering clean, user-centric solutions.</p>
-    <!-- Download Resume Button -->
-    
-  </div><!-- End Section Title -->
-
-  <div class="container">
-    <div class="row">
-
-      <!-- Left Column: Summary & Education -->
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-        <h3 class="resume-title">Summary</h3>
-        <div class="resume-item pb-0">
-          <h4>Shreyash Patil</h4>
-          <p><em>Web Developer with strong skills in React.js, Node.js, PHP, MySQL, and cloud platforms like AWS. Experienced in full-stack development, building responsive applications, and collaborating in Agile teams.</em></p>
-          <ul>
-            <li>Email: shreyash.patil3303@example.com</li>
-            <li>Phone: +91-8698330488</li>
-            <li>Location: Pune, India</li>
-            
-          </ul>
-        </div><!-- End Resume Item -->
-
-        <h3 class="resume-title">Education</h3>
-        <div class="resume-item">
-          <h4>Bachelor of Computer Science</h4>
-          
-          <p><em>Savitribai Phule Pune University</em></p>
-        </div><!-- End Resume Item -->
-
-      </div>
-
-      <!-- Right Column: Professional Experience -->
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-
-        <h3 class="resume-title">Professional Experience</h3>
-
-        <div class="resume-item">
-          <h4>Web Developer</h4>
-          <h5>Present</h5>
-          <p><em>Hitachi, Pune, India</em></p>
-          <ul>
-            <li>Developed and maintained web applications using React.js, Node.js, PHP, and MySQL.</li>
-            <li>Integrated REST APIs, handled backend logic, and optimized frontend performance.</li>
-            <li>Worked in Agile teams, participated in code reviews, and ensured clean code practices.</li>
-            <li>Implemented cloud-based solutions using AWS services for deployment and storage.</li>
-          </ul>
-        </div><!-- End Resume Item -->
-
-        <div class="resume-item">
-          <h4>Web Developer / Freelance</h4>
-          
-          <p><em>Freelance Projects</em></p>
-          <ul>
-            <li>Built responsive websites and portals using React.js, Node.js, PHP, and MySQL.</li>
-            <li>Worked with WordPress and Shopify to create CMS-based websites for clients.</li>
-            <li>Implemented UI/UX improvements and ensured cross-browser compatibility.</li>
-            <li>Collaborated with clients to understand requirements and deliver functional solutions.</li>
-          </ul>
-        </div><!-- End Resume Item -->
-
-      </div>
-
-    </div>
-  </div>
-
-</section><!-- /Resume Section -->
 
 
     <!-- Portfolio Section -->
@@ -306,16 +245,31 @@
     <p>A selection of projects showcasing my web development work</p>
   </div><!-- End Section Title -->
 
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <ul class="portfolio-filters">
+      <li class="filter-active" data-filter="*">All</li>
+      <li data-filter=".filter-web">Web</li>
+      <li data-filter=".filter-php">PHP</li>
+      <li data-filter=".filter-react">React</li>
+      <li data-filter=".filter-cms">CMS</li>
+    </ul>
+  </div>
+
   <div class="container">
-    <div class="row gy-4 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+    <div class="row gy-4 justify-content-center portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
       <!-- Project 1: JobConnect Consultancy -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-php">
         <div class="portfolio-content shadow-sm rounded">
           <img src="assets/img/portfolio/JC1.png" class="img-fluid rounded" alt="JobConnect Consultancy">
           <div class="portfolio-info">
             <h4>JobConnect Consultancy</h4>
-            <p>JavaScript | Bootstrap | PHP</p>
+            <p>Lead generation portal with service browsing and contact workflow.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+              <span>PHP</span>
+            </div>
 
             <!-- Main Image (Gallery Trigger) -->
             <a href="assets/img/portfolio/JC1.png" title="JobConnect Consultancy" 
@@ -337,12 +291,17 @@
       </div><!-- End Project 1 -->
 
       <!-- Project 2: The Tourism Express -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-php">
         <div class="portfolio-content shadow-sm rounded">
           <img src="assets/img/portfolio/TTE1.jpeg" class="img-fluid rounded" alt="The Tourism Express">
           <div class="portfolio-info">
             <h4>The Tourism Express</h4>
-            <p>PHP | HTML | CSS</p>
+            <p>Travel website with curated packages and simple booking flow.</p>
+            <div class="project-tags">
+              <span>PHP</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
 
             <!-- Main Image (Gallery Trigger) -->
             <a href="assets/img/portfolio/TTE1.jpeg" title="The Tourism Express" 
@@ -363,12 +322,17 @@
       </div><!-- End Project 2 -->
 
       <!-- Project 3: 7Frames -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
         <div class="portfolio-content shadow-sm rounded">
           <img src="assets/img/portfolio/FS1.png" class="img-fluid rounded" alt="7Frames - Structural Design Consultancy">
           <div class="portfolio-info">
             <h4>7Frames</h4>
-            <p>HTML | CSS | JavaScript</p>
+            <p>Corporate consultancy site with strong branding and layout clarity.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
 
             <!-- Main Image (Gallery Trigger) -->
             <a href="assets/img/portfolio/FS1.png" title="7Frames" 
@@ -389,12 +353,17 @@
       </div><!-- End Project 3 -->
 
       <!-- Project 4: LawNotes16mrks -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
         <div class="portfolio-content shadow-sm rounded">
           <img src="assets/img/portfolio/LN1.png" class="img-fluid rounded" alt="7Frames - Structural Design Consultancy">
           <div class="portfolio-info">
             <h4>LawNote16mrks</h4>
-            <p>HTML | CSS | JavaScript</p>
+            <p>Educational notes platform for law students with structured content.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
 
             <!-- Main Image (Gallery Trigger) -->
             <a href="assets/img/portfolio/LN1.png" title="7Frames" 
@@ -413,6 +382,52 @@
           </div>
         </div>
       </div><!-- End Project 4 -->
+
+      <!-- Project 5: E-Commerce Landing -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-react">
+        <div class="portfolio-content shadow-sm rounded">
+          <img src="assets/img/portfolio/EC1.png" class="img-fluid rounded" alt="E-Commerce Landing">
+          <div class="portfolio-info">
+            <h4>E-Commerce Landing</h4>
+            <p>Product-focused landing page optimized for conversion.</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>UI/UX</span>
+              <span>CSS</span>
+            </div>
+            <a href="assets/img/portfolio/EC1.png" title="E-Commerce Landing" 
+               data-gallery="ecom-gallery" class="glightbox preview-link">
+               <i class="bi bi-zoom-in"></i>
+            </a>
+            <a href="#" class="details-link" title="Project details">
+              <i class="bi bi-link-45deg"></i>
+            </a>
+          </div>
+        </div>
+      </div><!-- End Project 5 -->
+
+      <!-- Project 6: Portfolio CMS -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-cms">
+        <div class="portfolio-content shadow-sm rounded">
+          <img src="assets/img/portfolio/CMS1.png" class="img-fluid rounded" alt="Portfolio CMS">
+          <div class="portfolio-info">
+            <h4>Portfolio CMS</h4>
+            <p>Customizable CMS site for creatives with dynamic sections.</p>
+            <div class="project-tags">
+              <span>WordPress</span>
+              <span>PHP</span>
+              <span>Custom Theme</span>
+            </div>
+            <a href="assets/img/portfolio/CMS1.png" title="Portfolio CMS" 
+               data-gallery="cms-gallery" class="glightbox preview-link">
+               <i class="bi bi-zoom-in"></i>
+            </a>
+            <a href="#" class="details-link" title="Project details">
+              <i class="bi bi-link-45deg"></i>
+            </a>
+          </div>
+        </div>
+      </div><!-- End Project 6 -->
 
     </div><!-- End Row -->
   </div><!-- End Container -->
@@ -544,6 +559,73 @@
 
 </section><!-- /Services Section -->
 
+    <!-- Resume Section -->
+<section id="resume" class="resume section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Career Highlights</h2>
+    <p>Snapshot of experience, focus areas, and the impact I bring to teams and clients.</p>
+    <div class="resume-actions">
+      <a href="assets/Resume.pdf" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">Download Resume</a>
+    </div>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="resume-card h-100">
+          <h3>Impact Snapshot</h3>
+          <ul>
+            <li>8+ client and freelance projects delivered</li>
+            <li>End-to-end development from UI to deployment</li>
+            <li>Performance-first, mobile-friendly builds</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="resume-card h-100">
+          <h3>Experience</h3>
+          <div class="resume-role">
+            <h4>Web Developer</h4>
+            <span>Hitachi, Pune</span>
+            <p>React.js, Node.js, PHP, MySQL, AWS</p>
+            <ul>
+              <li>Built responsive apps with reusable components</li>
+              <li>Integrated REST APIs and improved UI performance</li>
+            </ul>
+          </div>
+          <div class="resume-role">
+            <h4>Freelance Web Developer</h4>
+            <span>Client Projects</span>
+            <p>WordPress, Shopify, PHP</p>
+            <ul>
+              <li>Delivered CMS websites with custom features</li>
+              <li>Optimized UX and cross-browser support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="resume-card h-100">
+          <h3>Education</h3>
+          <p class="mb-2"><strong>Bachelor of Computer Science</strong></p>
+          <p class="mb-0">Savitribai Phule Pune University</p>
+          <div class="resume-focus">
+            <h4>Core Strengths</h4>
+            <ul>
+              <li>UI/UX polish with clean architecture</li>
+              <li>API integration and database design</li>
+              <li>Cloud deployment and DevOps basics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!-- /Resume Section -->
+
 
     
 
@@ -552,7 +634,7 @@
 
   <div class="container section-title" data-aos="fade-up">
     <h2>Contact</h2>
-    <p>Get in touch with me for projects, collaborations, or queries.</p>
+    <p>Tell me about your project and I will get back to you quickly.</p>
   </div>
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -585,12 +667,16 @@
               <p>shreyash.patil3303@gmail.com</p>
             </div>
           </div>
+
+          <div class="contact-note">
+            <p>Prefer email? Write directly to <strong>shreyash.patil3303@gmail.com</strong></p>
+          </div>
         </div>
 
       </div>
       
       <div class="col-lg-7">
-        <form action="forms/send_email.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+        <form action="https://formspree.io/f/your_form_id" method="post" class="contact-form" data-aos="fade-up" data-aos-delay="200">
           <div class="row gy-3">
 
             <div class="col-md-6">
@@ -611,9 +697,6 @@
 
             <div class="col-md-12 text-center">
               <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-              <div class="loading">Sending...</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
 
           </div>
