@@ -586,6 +586,30 @@ section,
   font-size: 26px;
 }
 
+.hero-tagline {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.hero-subline {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.hero-actions {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hero-actions .btn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
 .hero p span {
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
@@ -1039,10 +1063,33 @@ section,
 .portfolio .portfolio-content {
   position: relative;
   overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 18px 32px color-mix(in srgb, var(--default-color), transparent 90%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.coming-soon-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .portfolio .portfolio-content .portfolio-info {
@@ -1121,6 +1168,36 @@ section,
 
 .portfolio .portfolio-content:hover img {
   transform: scale(1.1);
+}
+
+.portfolio .portfolio-content:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 44px color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.project-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.project-btn.outline {
+  background: transparent;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 /*--------------------------------------------------------------
